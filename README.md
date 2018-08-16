@@ -13,7 +13,7 @@ The following class is based on the virtual machine placement of OpenStack Neat 
  
 4. PowerVmAllocationPolicyMBFD.java	
 
-If you are to use any the three above virtual machine placement classes (1-3), please cite the following paper:
+If you are to use any the this project files (the virtual machine placement classes or converted workload traces), please cite the following paper:
 
 F.F. Moges, "Energy-aware  VM placement algorithms in an OpenStack cloud",  MSc thesis, Addis Ababa University, Sep 2018.
 
