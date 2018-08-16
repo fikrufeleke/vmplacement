@@ -8,16 +8,15 @@ The following three classes in this project are based on algorithms in the thesi
 1. PowerVmAllocationPolicyMFPED.java	
 2. PowerVmAllocationPolicyPEBFD.java	
 3. PowerVmAllocationPolicyPEFFD.java	
+
 The following class is based on the virtual machine placement of OpenStack Neat (http://openstack-neat.org/)
 4. PowerVmAllocationPolicyMBFD.java	
 
-
-If you are to use any of the virtual machine placement classes in this classes, please site the following paper:
-Fikru Feleke Moges, "Energy-aware  VM placement algorithms in an OpenStack cloud, "  MSc thesis, Addis Ababa University, Sep 2018.
-
-
+If you are to use any of the virtual machine placement classes in this project, please cite the following paper:
+F.F. Moges, "Energy-aware  VM placement algorithms in an OpenStack cloud",  MSc thesis, Addis Ababa University, Sep 2018.
 
 Usage : 
-1. Create the power datacenter and for the policy argument call one of  our virtual machine placement class.
-2. Run the simulation
+1. Include the the above virtual machine placement classes in power package of CloudSim simulator.
+2. Create your simulation environment such that  the VM AllocationPolicy  of the power datacenter is set to one of the above virtual machine placement class.
+3. Run your simulation.
 
