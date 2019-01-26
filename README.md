@@ -1,4 +1,4 @@
-# VM Placement
+# VM Placement Algorithms
 This project is a collection of virtual machine placement classes for efficient energy utilization and reduced service level agreement 
 violation in cloud datacenter. The codes are to be implemented in CloudSim-3.0.3 simulator and all extend the class
 PowerVmAllocationPolicyMigrationLocalRegression which is available in the power package of the simulator.
